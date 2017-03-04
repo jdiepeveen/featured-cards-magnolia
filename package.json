@@ -4,14 +4,16 @@
   "description": "Featured cards - Component template for Magnolia CMS",
   "repository": {
     "type": "git",
-    "url": "https://github.com:jdiepeveen/featured-cards-magnolia.git"
+    "url": "git+https://github.com:jdiepeveen/featured-cards-magnolia.git"
   },
   "keywords": [
     "magnolia-light-module",
     "magnolia-component",
     "featured-cards"
   ],
-  "author": "Jordie Diepeveen",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdiepeveen/featured-cards-magnolia/issues"
+  },
   "homepage": "https://github.com/jdiepeveen/featured-cards-magnolia#readme"
 }
