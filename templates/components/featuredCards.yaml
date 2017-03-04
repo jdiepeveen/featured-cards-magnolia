@@ -1,0 +1,13 @@
+dialog: featured-cards-magnolia:components/featuredCards
+templateScript: /featured-cards-magnolia/templates/components/featuredCards.ftl
+renderType: freemarker
+
+parameters:
+  # Or set in dialog?
+  headingElement: h2
+
+areas:
+  cards:
+    availableComponents:
+      card:
+        id: featured-cards-magnolia:components/card

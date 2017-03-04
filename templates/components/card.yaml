@@ -1,0 +1,7 @@
+dialog: featured-cards-magnolia:components/card
+templateScript: /featured-cards-magnolia/templates/components/card.ftl
+renderType: freemarker
+
+parameters:
+  itemElement: div
+  itemClass: col-lg-3 col-xs-12

@@ -1,0 +1,24 @@
+form:
+  tabs:
+    - name: main
+      fields:
+        - name: link
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: website
+          appName: pages
+          identifierToPathConverter:
+            class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+    - name: override
+      fields:
+        - name: explanation
+          class: info.magnolia.ui.form.field.definition.StaticFieldDefinition
+          value: ''
+        - name: title2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          i18n: true
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
