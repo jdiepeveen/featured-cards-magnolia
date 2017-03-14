@@ -1,0 +1,3 @@
+dialog: featured-cards-magnolia:components/featuredCard
+templateScript: /featured-cards-magnolia/templates/components/featuredCard.ftl
+renderType: freemarker

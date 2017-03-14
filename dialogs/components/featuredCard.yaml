@@ -1,6 +1,6 @@
 form:
   tabs:
-    - name: main
+    - name: tabMain
       fields:
         - name: link
           class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
@@ -8,14 +8,25 @@ form:
           appName: pages
           identifierToPathConverter:
             class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
-    - name: override
+          required: true
+    - name: tabOverride
       fields:
         - name: explanation
           class: info.magnolia.ui.form.field.definition.StaticFieldDefinition
-          value: ''
-        - name: title2
+        - name: title
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition
           i18n: true
+        - name: abstract
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          i18n: true
+        - name: image
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
 
 actions:
   commit:

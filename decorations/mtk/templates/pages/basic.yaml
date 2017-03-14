@@ -1,5 +1,0 @@
-areas:
-  main:
-    availableComponents:
-      featuredCards:
-        id: featured-cards-magnolia:components/featuredCards

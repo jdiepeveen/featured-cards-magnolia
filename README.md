@@ -1,9 +1,14 @@
 # featured-cards-magnolia
 
-Provide a featured cards component. Multiple cards can be added. Each card will display the titel, abstract and image from the linked page which can be override.
+Displays a selected set of featured pages as cards with title, abstract and image.  
+Multiple cards can be added. Use the override tab to override the title, abstract or image.
 
 
 ## Features
+
+![Demo page with component](/_dev/README-featured-cards.png)
+
+The css classes are using the BEM approach, which will emphasis on readability and avoiding collisions.
 
 <!--
 Provide a list of the key features this module provides for content
@@ -30,6 +35,11 @@ applicable.
 
 ### Template parameters
 
+    imageVariation: (Default: "featured-card") the variation name for resizing the card images. Use decorations to override the default variation.
+    
+
+## Demo
+To see the component in action, open the Pages app in Magnolia AdminCentral and import the files in `_dev/demos`.
 
 ## Information on Magnolia CMS
 

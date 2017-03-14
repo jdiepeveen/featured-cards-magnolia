@@ -1,6 +1,6 @@
 form:
   tabs:
-    - name: main
+    - name: tabMain
       fields:
         - name: title
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition
