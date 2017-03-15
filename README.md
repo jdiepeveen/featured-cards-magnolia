@@ -10,7 +10,7 @@ The image is retrieved from the page properties so please add the image field to
 The css classes are using the BEM approach, which will emphasis on readability and avoiding collisions. Your your own styling to make the card look great!
 
 An optional title can be added above the component.
-![Dialog component](/_dev/README-featured-cards-dialog.png)
+![Dialog component](_dev/README-featured-cards-dialog.png)
 
 Cards can be added to the `Cards` area
 ![Cards area](/_dev/README-featured-cards-area.png)
