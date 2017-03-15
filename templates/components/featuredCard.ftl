@@ -1,9 +1,10 @@
 [#-------------- ASSIGNMENTS --------------]
 [#assign targetNode = cmsfn.contentById(content.link)!]
 
+[#assign link = cmsfn.link(targetNode)!]
 [#assign title = content.title!targetNode.title!]
 [#assign imageItemKey = content.image!targetNode.image!]
-[#assign text = content.abstract!targetNode.abstract!]
+[#assign abstract = content.abstract!targetNode.abstract!]
 
 [#assign hasImage = false]
 [#if imageItemKey?has_content]
@@ -18,10 +19,15 @@
 [/#if]
 
 [#-------------- RENDERING  --------------]
-<div class="featured-cards__item">
+<div class="featured-card">
 [#if hasImage]
-	<img src="${image.link!}"[#if imageAltText?has_content] alt="${imageAltText!}"[/#if]>
+    <a href="${link}">
+		<img class="featured-card__image" src="${image.link!}"[#if imageAltText?has_content] alt="${imageAltText!}"[/#if]>
+	</a>
 [/#if]
-	<h3 class="featured-cards__item__title">${title}</h3>
-	<p class="featured-cards__item__abstract">${text}</p>
+	<h4 class="featured-card__title">${title}</h4>
+[#if abstract?has_content]
+	<p class="featured-card__abstract">${abstract}</p>
+[/#if]
+	<a href="${link}" class="btn btn-primary">${i18n.get("templates.components.featuredCard.readmore.buttonLabel")}</a>
 </div>

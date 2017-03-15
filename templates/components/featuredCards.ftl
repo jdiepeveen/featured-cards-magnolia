@@ -7,5 +7,7 @@
 [#if title?has_content]
     <h2 class="featured-cards__title">${title}</h2>
 [/#if]
+    <div class="featured-cards__grid">
 	[@cms.area name="cards" /]
+    </div>
 </div>

@@ -5,13 +5,15 @@
 
 .featured-cards__text {}
 
-.featured-cards__item {
+.featured-cards__grid {}
+
+.featured-card {
     float: left;
-    padding-right: 30px;
+    padding: 1em 0 0 1em;
 }
 
-.featured-cards__item__title {}
+.featured-card__title {}
 
-.featured-cards__item__image {}
+.featured-card__image {}
 
-.featured-cards__item__abstract {}
+.featured-card__abstract {}
