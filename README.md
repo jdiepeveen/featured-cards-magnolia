@@ -10,6 +10,12 @@ Multiple cards can be added. Use the override tab to override the title, abstrac
 
 The css classes are using the BEM approach, which will emphasis on readability and avoiding collisions.
 
+![Dialog component](/_dev/README-featured-cards-dialog.png)
+
+![Dialog component - card - 1](/_dev/README-featured-cards-dialog-card-1.png)
+![Dialog component - card - 2](/_dev/README-featured-cards-dialog-card-2.png)
+The image is retrieved from the page properties so please add the image field to the page properties or use the override function.
+
 <!--
 Provide a list of the key features this module provides for content
 authors, or whoever the primary user is. For a component template,
@@ -35,7 +41,7 @@ applicable.
 
 ### Template parameters
 
-    imageVariation: (Default: "featured-card") the variation name for resizing the card images. Use decorations to override the default variation.
+    imageVariation: the variation name for resizing the card images. Use decorations to override the default variation.
     
 
 ## Demo

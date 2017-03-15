@@ -5,7 +5,10 @@
 
 .featured-cards__text {}
 
-.featured-cards__item {}
+.featured-cards__item {
+    float: left;
+    padding-right: 30px;
+}
 
 .featured-cards__item__title {}
 
