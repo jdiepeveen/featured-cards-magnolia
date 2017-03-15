@@ -17,6 +17,7 @@ Cards can be added to the `Cards` area
 
 The linked page can be selected.
 ![Dialog card component](/_dev/README-featured-cards-dialog-card.png)
+
 The title, abstract and image will be retrieved from the target page.
 
 Use the fields on the tab `override` to provide your own title, abstract or image.
