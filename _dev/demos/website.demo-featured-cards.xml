@@ -19,7 +19,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2017-03-15T17:53:18.559+01:00</sv:value>
+    <sv:value>2017-03-18T20:16:08.326+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -47,7 +47,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2017-03-15T17:53:18.559+01:00</sv:value>
+      <sv:value>2017-03-18T20:16:08.326+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -69,7 +69,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2017-03-15T17:45:59.625+01:00</sv:value>
+        <sv:value>2017-03-18T20:16:08.326+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -97,7 +97,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2017-03-15T17:45:59.625+01:00</sv:value>
+          <sv:value>2017-03-18T20:16:08.326+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -108,9 +108,6 @@
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>2e69faf1-4722-422f-93de-e4c9444f0b26</sv:value>
-          </sv:property>
-          <sv:property sv:name="image" sv:type="String">
-            <sv:value>jcr:78399215-aed5-4518-9cfc-9b39855f4740</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:createdBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -125,7 +122,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2017-03-14T18:45:58.272+01:00</sv:value>
+            <sv:value>2017-03-18T20:15:22.067+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -173,6 +170,9 @@
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>5bdd2441-7af1-4b76-a671-fe6a1590e471</sv:value>
           </sv:property>
+          <sv:property sv:name="abstract" sv:type="String">
+            <sv:value>Hmm not to shabby</sv:value>
+          </sv:property>
           <sv:property sv:name="image" sv:type="String">
             <sv:value>jcr:8d1e164c-22a2-483e-9b49-f8088599c036</sv:value>
           </sv:property>
@@ -189,7 +189,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2017-03-15T17:45:59.625+01:00</sv:value>
+            <sv:value>2017-03-18T20:16:08.326+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -274,6 +274,9 @@ Best practice is to use resfn, theme, or include in page template.
     <sv:property sv:name="hideInNav" sv:type="Boolean">
       <sv:value>false</sv:value>
     </sv:property>
+    <sv:property sv:name="image" sv:type="String">
+      <sv:value>jcr:78399215-aed5-4518-9cfc-9b39855f4740</sv:value>
+    </sv:property>
     <sv:property sv:name="jcr:createdBy" sv:type="String">
       <sv:value>admin</sv:value>
     </sv:property>
@@ -284,7 +287,7 @@ Best practice is to use resfn, theme, or include in page template.
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2017-03-15T17:43:25.912+01:00</sv:value>
+      <sv:value>2017-03-18T20:15:13.200+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -458,7 +461,7 @@ Best practice is to use resfn, theme, or include in page template.
       <sv:value>bcc1a9a8-7f68-47dc-86f1-68640401194d</sv:value>
     </sv:property>
     <sv:property sv:name="abstract" sv:type="String">
-      <sv:value>Hmm not too shabby</sv:value>
+      <sv:value>Not too shabby</sv:value>
     </sv:property>
     <sv:property sv:name="hideInNav" sv:type="Boolean">
       <sv:value>false</sv:value>
@@ -482,7 +485,7 @@ Best practice is to use resfn, theme, or include in page template.
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2017-03-15T17:47:10.559+01:00</sv:value>
+      <sv:value>2017-03-18T20:15:53.063+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>

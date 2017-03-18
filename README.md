@@ -5,7 +5,6 @@ Displays a selected set of featured pages as cards with title, abstract and imag
 ## Features
 Multiple cards can be added. Use the override tab to override the title, abstract or image.
 ![Demo page with component](/_dev/README-featured-cards.png)
-The image is retrieved from the page properties so please add the image field to the page properties or use the override function.
 
 The css classes are using the BEM approach, which will emphasis on readability and avoiding collisions. Your your own styling to make the card look great!
 
@@ -27,6 +26,8 @@ Use the fields on the tab `override` to provide your own title, abstract or imag
 Make the component available to authors. Use the included css file in `webresources` or better: create your own style to make the cards shine!
 
 (To make this component available on the mtk basic page, you could use the decoration included in _dev/decorations.)
+
+The image is retrieved from the page properties so please add the image field to the page properties or use the override function.
 
 ### Template parameters
 Set parameter `imageVariation` to the variation name used for resizing the card images. Use decorations to override the default variation.
