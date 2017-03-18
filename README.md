@@ -6,7 +6,7 @@ Displays a selected set of featured pages as cards with title, abstract and imag
 Multiple cards can be added. Use the override tab to override the title, abstract or image.
 ![Demo page with component](/_dev/README-featured-cards.png)
 
-The css classes are using the BEM approach, which will emphasis on readability and avoiding collisions. Your your own styling to make the card look great!
+The css classes are using the BEM approach, which will emphasis on readability and avoiding collisions. Use your own styling to make the card look great!
 
 An optional title can be added above the component.
 ![Dialog component](_dev/README-featured-cards-dialog.png)
